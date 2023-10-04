@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px; 
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  background: #dfe0e2b1;
+}
+form  {
+  background-color:white;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+button  {
+  background-color:lightpink; 
+    border:none;
+    padding:10px ;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor:pointer;
+    transition: opacity 0.25s;
+  }
+  button:hover {
+    opacity: .8;
+  }
+hr {
+  background-color: red;
+
+}
+.header {
+  width: 400px;
+  max-width: 100%;
+  position: relative;
+}
+
+.header input {
+  padding: 1rem 2rem;
+  width: 100%;
+  background: whitesmoke;  
+  border: none;
+  color:black;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  outline:white;
+}
+
+.header button {
+  height: 70%;
+  aspect-ratio: 1;
+
+   position: absolute; 
+  right:-12%;
+  transform: translateX(-10%);
+  top: 17%;
+}
+
+.list {
+  color:darkcyan;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-inline: 20px;
+  text-align: left;
+  position: relative;
+}
+
+.buttonCompletedFalse {
+  border: 3px solid lightseagreen; 
+  background-color: white;
+  color: lightseagreen;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+.buttonCompletedTrue {
+  background-color: white;
+  color: lightseagreen;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+  .form {
+    margin-top: 10px;
+    background-color: darkcyan; 
+  }
+
+.noText {
+  text-decoration: line-through  lightseagreen 2px;
+  color: rgb(225, 225, 225);
+}
+.completedButton {
+  background-color: darkcyan; 
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 6px;
+}
+.list .completedButton {
+  position: absolute;
+ left: 30%;
+ bottom: 4%;
+}
+.error {
+  background-color: red;
+  color: white;
+  font-weight: 600; 
+  text-transform: uppercase; 
+  border-radius: 6px;
+  margin-top: 2px;
+}
+
+
