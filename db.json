@@ -3,12 +3,12 @@
     {
       "id": 1696415557682,
       "task": "Enviar Challenge",
-      "completed": false
+      "completed": true
     },
     {
       "id": 1696425037323,
       "task": "Preparar Almmuerzo",
-      "completed": true
+      "completed": false
     }
   ]
 }
