@@ -1,0 +1,19 @@
+.list {
+    color:darkcyan;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-inline: 20px;
+    text-align: left;
+    position: relative;
+    overflow: scroll;
+  }
+.form {
+    margin-top: 10px;
+    background-color: darkcyan; 
+  }
+  
+.noText {
+    text-decoration: line-through  lightseagreen 2px;
+    color: rgb(225, 225, 225);
+    
+  }

@@ -1,0 +1,34 @@
+.header {
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+  }
+.header input {
+    padding: 1rem 2rem;
+    width: 100%;
+    background: whitesmoke;  
+    border: none;
+    color:black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 16px;
+    outline:white;
+  }
+
+.header button {
+    height: 70%;
+    aspect-ratio: 1;
+  
+     position: absolute; 
+    right:-12%;
+    transform: translateX(-10%);
+    top: 17%;
+  }
+
+   @media (prefers-color-scheme: dark) {
+      .header input{
+        background-color:grey;
+      }
+   } 
+ 
+ 

@@ -1,13 +1,48 @@
 {
   "tasks": [
     {
-      "id": 1696415557682,
-      "task": "Enviar Challenge",
-      "completed": true
+      "id": 1697217259166,
+      "task": "1",
+      "completed": false
     },
     {
-      "id": 1696425037323,
-      "task": "Preparar Almmuerzo",
+      "id": 1697217265353,
+      "task": "😒",
+      "completed": false
+    },
+    {
+      "id": 1697217267966,
+      "task": "❤️",
+      "completed": false
+    },
+    {
+      "id": 1697217270847,
+      "task": "😅",
+      "completed": false
+    },
+    {
+      "id": 1697217273148,
+      "task": "😂",
+      "completed": false
+    },
+    {
+      "id": 1697217275538,
+      "task": "🙄",
+      "completed": false
+    },
+    {
+      "id": 1697217280255,
+      "task": "👤",
+      "completed": false
+    },
+    {
+      "id": 1697217283284,
+      "task": "🏎️",
+      "completed": false
+    },
+    {
+      "id": 1697217292517,
+      "task": "⚠️",
       "completed": false
     }
   ]

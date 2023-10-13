@@ -4,7 +4,7 @@ import axios from "axios"
 import Body from "./components/Body"
 
 function App() {
-  const [taskList, setTaskList] = useState()
+  const [taskList, setTaskList] = useState([])
 
   useEffect(() => {
     const fetchData = async () => {
