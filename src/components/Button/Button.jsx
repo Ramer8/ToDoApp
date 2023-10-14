@@ -1,31 +1,17 @@
 import PropTypes from "prop-types"
-// import classNames from "classnames"
 import "./button.css"
-export default function Button({
-  children,
-  //   addButton,
-  //   completedButton,
-  //   buttonCompletedFalse,
-  //   buttonCompletedTrue,
-}) {
+export default function Button({ children, style, onClick, disabled }) {
   Button.propTypes = {
-    // addButton: PropTypes.func.isRequired,
     children: PropTypes.string.isRequired,
+    style: PropTypes.string.isRequired,
+    onClick: PropTypes.func?.isRequired,
+    disabled: PropTypes.func?.isRequired,
   }
-  // const classes = classNames("buttonCompletedTrue", {
-  //   addButton: addButton,
-  // })
-
-  //   const classes = classNames({
-  //     addButton,
-  //     // completedButton,
-  //     // buttonCompletedFalse,
-  //     // buttonCompletedTrue,
-  //   })
   return (
     <>
-      <button className="addButton">{children}</button>
-      {/* <button className={classes}>{children}</button> */}
+      <button className={style} onClick={onClick} disabled={disabled}>
+        {children}
+      </button>
     </>
   )
 }

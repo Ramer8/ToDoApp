@@ -1,4 +1,3 @@
-
 button  {
     border:none;
     padding:10px ;
@@ -29,14 +28,12 @@ button[disabled]:hover {
     cursor:pointer;
     transition: opacity 0.25s;
     }
-  
      .buttonCompletedFalse {
         border: 3px solid lightseagreen; 
         color: lightseagreen;
         margin-right: 16px;
         border-radius: 6px;
-        margin-bottom: 2px;
-      }
+   }
       .buttonCompletedTrue {
         color: lightseagreen;
         margin-right: 9px;

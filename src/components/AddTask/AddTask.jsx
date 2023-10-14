@@ -6,12 +6,13 @@ const AddTask = ({ handleSubmit }) => {
   AddTask.propTypes = {
     handleSubmit: PropTypes.func.isRequired,
   }
+
   return (
     <div>
       <form onSubmit={handleSubmit}>
         <div className="header">
           <input type="text" name="task" autoComplete="off"></input>
-          <Button>Añadir</Button>
+          <Button style="addButton">Añadir</Button>
         </div>
       </form>
     </div>
