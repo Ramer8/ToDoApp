@@ -12,6 +12,7 @@ const Error = ({ setError, error }) => {
   setTimeout(() => {
     setError("")
   }, TIME_SHOW_ERROR)
+
   return (
     <div>
       <p className="error">{error}</p>

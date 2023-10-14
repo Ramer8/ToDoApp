@@ -63,24 +63,26 @@ const Body = ({ taskList, setTaskList }) => {
       <AddTask handleSubmit={handleSubmit}></AddTask>
       {error && <Error setError={setError} error={error}></Error>}
 
-      <form className="list">
-        {taskList?.map((completedTask) => (
-          <TaskList
-            key={completedTask.id}
-            completedTask={completedTask}
-            handleInputChange={handleInputChange}
-          ></TaskList>
-        ))}
-        <Button
-          style="completedButton"
-          onClick={(e) => handleClickDelete(e)}
-          disabled={
-            !taskList.filter((objectToDelete) => objectToDelete.completed)
-              .length
-          }
-        >
-          Eliminar completados
-        </Button>
+      <form className="container">
+        <div className="list">
+          {taskList?.map((completedTask) => (
+            <TaskList
+              key={completedTask.id}
+              completedTask={completedTask}
+              handleInputChange={handleInputChange}
+            ></TaskList>
+          ))}
+          <Button
+            style="secondary"
+            onClick={(e) => handleClickDelete(e)}
+            disabled={
+              !taskList.filter((objectToDelete) => objectToDelete.completed)
+                .length
+            }
+          >
+            Eliminar completados
+          </Button>
+        </div>
       </form>
     </>
   )

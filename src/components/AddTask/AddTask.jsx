@@ -9,10 +9,10 @@ const AddTask = ({ handleSubmit }) => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form className="container" onSubmit={handleSubmit}>
         <div className="header">
           <input type="text" name="task" autoComplete="off"></input>
-          <Button style="addButton">Añadir</Button>
+          <Button style="primary">Añadir</Button>
         </div>
       </form>
     </div>

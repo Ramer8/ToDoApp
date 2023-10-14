@@ -13,10 +13,10 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .buttonCompletedTrue {
+  .button-completed-true {
     background-color: white;
   }
-  .buttonCompletedFalse  {
+  .button-completed-false  {
     background-color: white; 
   }
   .header input{
@@ -31,20 +31,18 @@
    :root {
     color: white;
   } 
-  form {
-    background-color: dimgray;
-  }
+.container .list {
+  color: cyan;
+
+}
   button {
     color: black;
   }
-  .list {
-    color:black
-  }
-
-  .buttonCompletedTrue {
+  .button-completed-true {
     background-color: dimgray;
+    
   }
-  .buttonCompletedFalse  {
+  .button-completed-false  {
     background-color: dimgray; 
   }
 }

@@ -9,31 +9,33 @@ const TaskList = ({ completedTask, handleInputChange }) => {
   }
   return (
     <div
-      className={`${completedTask.completed && "noText"}`}
+      className={`${completedTask.completed && "no-text"}`}
       key={completedTask.id}
     >
       {/* <Button
         style={`${
           !completedTask.completed
-            ? "buttonCompletedFalse"
-            : "buttonCompletedTrue"
+            ? "button-completed-false"
+            : "button-completed-true"
         }`}
         onClick={() => handleInputChange(completedTask.id)}
       >
         {completedTask.completed && "✔"}
       </Button> */}
+
       <button
         onClick={() => handleInputChange(completedTask.id)}
         type="button"
         className={`${
           !completedTask.completed
-            ? "buttonCompletedFalse"
-            : "buttonCompletedTrue"
+            ? "button-completed-false"
+            : "button-completed-true"
         }`}
       >
         {completedTask.completed && "✔"}
       </button>
       {completedTask.task}
+
       <hr></hr>
     </div>
   )

@@ -19,35 +19,36 @@ button[disabled]:hover {
    opacity: .2;
 }
 
-.addButton {
+.primary {
     background-color:lightpink; 
     border:none;
     padding:10px ;
     font-size: 16px;
     border-radius: 8px;
     cursor:pointer;
-    transition: opacity 0.25s;
     }
-     .buttonCompletedFalse {
+     .button-completed-false {
         border: 3px solid lightseagreen; 
         color: lightseagreen;
-        margin-right: 16px;
+        margin-right: 10px;
         border-radius: 6px;
+        margin-left: 8px;
    }
-      .buttonCompletedTrue {
+      .button-completed-true {
         color: lightseagreen;
-        margin-right: 9px;
+        margin-right: 6px;
         border-radius: 6px;
+        font-size: 12px;
+        margin-left: 8px;
       } 
       
-      .completedButton {
+      .secondary {
           background-color: darkcyan; 
-          text-align: center;
-          margin-right: 10px;
           border-radius: 6px;
         }
-        .list .completedButton {
-            position: absolute;
-            left: 30%;
-            bottom: 4%;
+        .list .secondary {
+            position: absolute; 
+            position:-webkit-sticky;
+             left: 30%;
+            bottom: 2%;
         } 

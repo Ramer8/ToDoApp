@@ -1,18 +1,22 @@
+.container  {
+  background-color:white;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 1px;
+  width: 100%;
+}
+
 .list {
+  width: 100%;
     color:darkcyan;
-    padding-top: 20px;
-    padding-bottom: 70px;
+    padding-top: 5px;
+    padding-bottom: 50px;
     padding-inline: 20px;
-    text-align: left;
     position: relative;
     overflow: scroll;
   }
-.form {
-    margin-top: 10px;
-    background-color: darkcyan; 
-  }
   
-.noText {
+.no-text {
     text-decoration: line-through  lightseagreen 2px;
     color: rgb(225, 225, 225);
   }

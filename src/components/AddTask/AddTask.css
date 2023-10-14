@@ -1,9 +1,21 @@
+.container  {
+  background-color:white;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 13px;
+  display: flex;
+  box-shadow: 3px 3px 3px lightgray;
+}
+
 .header {
-    width: 400px;
+  width: 100%;
+  display: flex;
     max-width: 100%;
     position: relative;
   }
+
 .header input {
+  display: block;
     padding: 1rem 2rem;
     width: 100%;
     background: whitesmoke;  
@@ -13,14 +25,15 @@
     text-decoration: none;
     font-size: 16px;
     outline:white;
+    border-radius: 2px;
   }
 
 .header button {
+  display: block;
     height: 70%;
-    aspect-ratio: 1;
   
      position: absolute; 
-    right:-12%;
+    right:2%;
     transform: translateX(-10%);
     top: 17%;
   }
@@ -28,6 +41,10 @@
    @media (prefers-color-scheme: dark) {
       .header input{
         background-color:grey;
+      }
+      .container {
+        background-color:dimgrey;
+        box-shadow: 3px 3px 3px gray
       }
    } 
  
